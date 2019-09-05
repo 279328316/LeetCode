@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetCode;
+using System;
 
 namespace LeetCodeApp
 {
@@ -6,7 +7,9 @@ namespace LeetCodeApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Sample2 sample = new Sample2();
+            sample.LengthOfLongestSubstring("abcdceabccefdbb");
+            Console.ReadLine();
         }
     }
 }
